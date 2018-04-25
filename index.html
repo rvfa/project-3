@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Battle Arena</title>
+</head>
+<body>
+
+	<div class="main">
+
+		<div class="start-button">
+			<button type="button" class="start-button" onclick="startGame();">Start</button>
+		</div> <!-- closes start-button -->
+
+
+			<div class="player-name">
+				<form>
+					<input type="text" class="hero-name" name="hero-name" placeholder="What's your hero's name?">
+					<button type="button" class="name-button" onclick="setPlayerName();">Go!</button>
+				</form>
+			</div> <!-- closes player-name -->
+
+		<h3 class="battle-round"></h3>
+
+		<div class="game-screen">
+
+
+
+			<div class="player-info">
+				<img src="images/player-image.png" alt="Player Avatar" class="player-avatar">
+				<p><span class="player-name-chosen"></span></p>
+				<p>HP: <span class="player-hp"></span></p>
+				<p><span class="player-weapon"></span></p>
+				<form>
+					<button type="button" class="player-attack" onclick="playerAttack();">Attack</button>
+				</form>
+				<p><span class="player-dmg-taken"></span></p>
+				<p><span class="enemy-dmg-taken"></span></p>
+
+			</div> <!-- closes player-info -->
+
+
+
+			<div class="enemy-one-info">
+				<img src="images/monster-image.png" alt="Monster Avatar">
+				<p><span class="enemy-one-name"></span></p>
+				<p>HP: <span class="enemy-one-hp"></span></p>
+				<p>Power: <span class="enemy-one-power"></span></p>
+			</div> <!-- closes enemy-one-info -->
+
+			<div class="enemy-two-info">
+				<img src="images/monster-two-image.png" alt="Monster Avatar">
+				<p><span class="enemy-two-name"></span></p>
+				<p>HP: <span class="enemy-two-hp"></span></p>
+				<p>Power: <span class="enemy-two-power"></span></p>
+			</div> <!-- closes enemy-two-info -->
+
+			<div class="enemy-three-info">
+				<img src="images/monster-three-image.png" alt="Monster Avatar">
+				<p><span class="enemy-three-name"></span></p>
+				<p>HP: <span class="enemy-three-hp"></span></p>
+				<p>Power: <span class="enemy-three-power"></span></p>
+			</div> <!-- closes enemy-three-info -->
+
+			<div class="enemy-four-info">
+				<img src="images/monster-four-image.png" alt="Monster Avatar">
+				<p><span class="enemy-four-name"></span></p>
+				<p>HP: <span class="enemy-four-hp"></span></p>
+				<p>Power: <span class="enemy-four-power"></span></p>
+			</div> <!-- closes enemy-four-info -->
+
+			<div class="enemy-five-info">
+				<img src="images/monster-five-image.png" alt="Monster Avatar">
+				<p><span class="enemy-five-name"></span></p>
+				<p>HP: <span class="enemy-five-hp"></span></p>
+				<p>Power: <span class="enemy-five-power"></span></p>
+			</div> <!-- closes enemy-five-info -->
+
+			<div class="enemy-six-info">
+				<img src="images/monster-six-image.png" alt="Monster Avatar">
+				<p><span class="enemy-six-name"></span></p>
+				<p>HP: <span class="enemy-six-hp"></span></p>
+				<p>Power: <span class="enemy-six-power"></span></p>
+			</div> <!-- closes enemy-six-info -->
+
+			<div class="enemy-seven-info">
+				<img src="images/monster-seven-image.png" alt="Monster Avatar">
+				<p><span class="enemy-seven-name"></span></p>
+				<p>HP: <span class="enemy-seven-hp"></span></p>
+				<p>Power: <span class="enemy-seven-power"></span></p>
+			</div> <!-- closes enemy-seven-info -->
+
+			<div class="enemy-eight-info">
+				<img src="images/monster-eight-image.png" alt="Monster Avatar">
+				<p><span class="enemy-eight-name"></span></p>
+				<p>HP: <span class="enemy-eight-hp"></span></p>
+				<p>Power: <span class="enemy-eight-power"></span></p>
+			</div> <!-- closes enemy-eight-info -->
+
+			<div class="enemy-nine-info">
+				<img src="images/monster-nine-image.png" alt="Monster Avatar">
+				<p><span class="enemy-nine-name"></span></p>
+				<p>HP: <span class="enemy-nine-hp"></span></p>
+				<p>Power: <span class="enemy-nine-power"></span></p>
+			</div> <!-- closes enemy-nine-info -->
+
+			<div class="enemy-ten-info">
+				<img src="images/monster-ten-image.png" alt="Monster Avatar">
+				<p><span class="enemy-ten-name"></span></p>
+				<p>HP: <span class="enemy-ten-hp"></span></p>
+				<p>Power: <span class="enemy-ten-power"></span></p>
+			</div> <!-- closes enemy-nine-info -->
+
+		</div> <!-- closes game-screen -->
+
+		<button type="button" class="restart" onclick="restartGame();">Restart</button>
+
+	</div> <!--closes main -->
+
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
